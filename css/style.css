@@ -1,0 +1,17 @@
+body {
+    background-image: url('Recipes.jpg');
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+  }
+  
+  form{
+    text-align: center;
+  }
+
+  h1{
+   color: rgb(65, 3, 3); 
+   text-align: center;
+   font-style: italic;
+   font-size: 100px;
+  }
