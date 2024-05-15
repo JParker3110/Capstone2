@@ -1,18 +1,15 @@
-const Base_URL = "www.themealdb.com/api/json/v1";
+const Base_URL = "https://www.themealdb.com/api/json/v1";
 function getRecipe(event) {
-    event.preventDefault();
+  event.preventDefault();
+  // console.log("works")
+  const cookBook = event.target["recipe-input"].value;
+  const url = Base_URL + `/1/search.php?s=${cookBook}`;
+// console.log(url)
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => {console.log(data)});
+    for (let i = 0; i < data.meals.length; i++){
+        console.log(data.meals[i].strMeal)
+      }
 
-    const cookBook = event.target["recipe"].value;
-  
-    // base url + endpoint
-    const url =
-      BASE_URL + `/1/search.php?s=${cookBook}`;
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-      
-        // console.log(data);
-        // DOM manipulation / update UI
-        document.getElementById("search-area").textContent = `${data.name}`
-      });
-  }
+}
