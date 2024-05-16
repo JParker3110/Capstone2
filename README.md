@@ -5,6 +5,7 @@ Author: Janiece Parker
 An app that displays your favorite recipes!
 
 Feature Tasks
+
 [x] Structure HTML
 [x] Styling the CSS page using color, fonts, images and text
 [] Connect HTML with JavaScript

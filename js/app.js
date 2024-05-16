@@ -9,11 +9,13 @@ function getRecipe(event) {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-    });
 
-  let searchField = document.getElementById("search-area");
-  let searchArea = searchField.value;
-  for (let i = 0; i < data.meals.length; i++) {
-    data.meals[i].strMeal;
-  }
+      const foodDiv = document.getElementById("food");
+
+      for (let i = 0; i < data.meals.length; i++) {
+        const foodItem = document.createElement("p");
+        foodItem.textContent = data.meals[i].strMeal;
+        foodDiv.appendChild(foodItem);
+      }
+    });
 }
