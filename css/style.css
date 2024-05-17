@@ -9,7 +9,7 @@ h1{
 }
 
 body {
-    background-image: url(Recipes.jpg);
+    background-image: url(pic.avif);
     background-size:cover; /* Cover the entire screen */
     background-repeat: no-repeat; /*Do not repeat the image */
     background-position: center; /* Center the image */
@@ -26,4 +26,8 @@ form  {
 
 form{
 text-align: center;
+}
+
+#search-area{
+    text-align: center;
 }

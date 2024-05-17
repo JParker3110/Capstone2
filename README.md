@@ -2,11 +2,11 @@
 Author: Janiece Parker
 
 [Live Site] http://127.0.0.1:5500/index.html?
-An app that displays your favorite recipes!
+An app that displays your favorite meals!
 
 Feature Tasks
 
 [x] Structure HTML
 [x] Styling the CSS page using color, fonts, images and text
-[] Connect HTML with JavaScript
-[] Create code to display recipes
+[x] Connect HTML with JavaScript
+[x] Create code to display recipes

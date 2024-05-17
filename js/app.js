@@ -14,8 +14,17 @@ function getRecipe(event) {
 
       for (let i = 0; i < data.meals.length; i++) {
         const foodItem = document.createElement("p");
-        foodItem.textContent = data.meals[i].strMeal;
+        foodItem.textContent = data.meals[i].strInstructions;
         foodDiv.appendChild(foodItem);
+
+        for (let j = 0; j < 20; j++) {
+          const ingredient = data.meals[i]["strIngredient" + j];
+          if (ingredient) {
+            const ingredientElement = document.createElement("p");
+            ingredientElement.textContent = ingredient;
+            foodDiv.appendChild(ingredientElement);
+          }
+        }
       }
     });
 }
