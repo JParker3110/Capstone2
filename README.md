@@ -1,7 +1,7 @@
 # Capstone2
 Author: Janiece Parker
 
-[Live Site] http://127.0.0.1:5500/index.html?
+[Live Site] https://jparker3110.github.io/Capstone2
 An app that displays your favorite meals!
 
 Feature Tasks
