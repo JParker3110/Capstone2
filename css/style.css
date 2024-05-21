@@ -28,6 +28,12 @@ form{
 text-align: center;
 }
 
-#search-area{
+#food {
+    color: darkred;
     text-align: center;
-}
+    font-style: italic;
+    font-style: bold;
+    font-size: 15px;
+    position: sticky ; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
